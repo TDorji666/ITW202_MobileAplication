@@ -8,6 +8,19 @@
     android:padding="20dp"
     tools:context=".MainActivity">
 
+    <com.google.android.material.appbar.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/Theme.TODO_12.PopupOverlay">
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="@color/design_default_color_primary"/>
+
+    </com.google.android.material.appbar.AppBarLayout>
+
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -22,7 +35,7 @@
         android:id="@+id/donut"
         android:layout_width="150dp"
         android:layout_height="150dp"
-        android:layout_marginTop="30dp"
+        android:layout_marginTop="50dp"
         android:onClick="Donut"
         android:src="@drawable/donut" />
 
@@ -30,9 +43,8 @@
         android:id="@+id/txtDonut"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="70dp"
+        android:layout_marginTop="100dp"
         android:layout_toEndOf="@+id/donut"
-
         android:fontFamily="cursive"
         android:gravity="center"
         android:text="@string/donut"

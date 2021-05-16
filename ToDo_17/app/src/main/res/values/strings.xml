@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">ToDo_17</string>
+    <style name="night_mode">Night Mode</style>
+    <style name="day_mode">Day Mode</style>
+</resources>
